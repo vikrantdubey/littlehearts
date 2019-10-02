@@ -1,0 +1,152 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+body{
+  font-family: "Montserrat";
+}
+h1{
+  font-family: 'Titillium Web';
+  font-size: 4rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* navigation bar */
+.navbar{
+  padding:0 0 4.6rem;
+}
+
+
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 18px 0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+}
+/* download buttons */
+.download-button{
+  margin:4% 2% 4% 2%;
+}
+/* title image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+/* features */
+#features{
+  padding: 10% 10%;
+  position: relative;
+  background-color: #fff;
+}
+.features-row{
+  text-align: center;
+  padding: 5%;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight:bold;
+}
+p{
+  font-family: "Montserrat";
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 2rem;
+}
+.icon:hover{
+  color: green;
+}
+
+/* testimonials */
+#testimonials{
+  padding: 10% 10%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+/* carsoel */
+.d-block{
+  margin: auto;
+}
+
+/* press */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 20px
+}
+.press-logo{
+  width: 10%;
+  margin: 20px;
+}
+/* pricing */
+#pricing{
+  text-align: center;
+  padding: 7% 13%;
+}
+
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* contacct */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3% 15%;
+}
+/* footer */
+#footer{
+  padding: 20px;
+  text-align: center;
+}
+.copyright{
+  padding: 2rem;
+}
+.footer-link{
+  margin-right: 15px
+}
+.instagram{
+  width: 15px;
+}
+.facebook{
+  width: 15px;
+}
+.linkedin{
+  width: 15px;
+}
+.creator{
+  margin-top: 20px;
+}
+.testimonial-text{
+  text-align: center;
+}
+.carousel-control-prev-icon{
+  margin: 50%;
+}
+.carousel-control-next-icon{
+  margin: 50%;
+}
